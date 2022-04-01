@@ -43,7 +43,7 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: Thu, 31 Mar 2022 10:16:51 UTC
+  time: Fri, 01 Apr 2022 09:23:57 UTC
   expected: |
     5 <class 'int'>
     123.321 <class 'float'>
@@ -53,5 +53,5 @@ feedback:
     test <class 'str'>
     {1, 2, 3} set() <class 'set'>
   actual: |
-    5 <class 'bool'>
+    5 <class 'str'>
 record: -1
