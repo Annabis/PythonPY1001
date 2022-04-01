@@ -40,18 +40,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Incorrect
-  time: Fri, 01 Apr 2022 09:23:57 UTC
-  expected: |
-    5 <class 'int'>
-    123.321 <class 'float'>
-    True False <class 'bool'>
-    () <class 'tuple'>
-    [] <class 'list'>
-    test <class 'str'>
-    {1, 2, 3} set() <class 'set'>
-  actual: |
-    5 <class 'str'>
+  message: Congratulations!
+  time: Fri, 01 Apr 2022 09:29:41 UTC
 record: -1

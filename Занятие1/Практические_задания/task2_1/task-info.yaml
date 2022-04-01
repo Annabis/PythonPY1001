@@ -9,16 +9,16 @@ files:
   visible: true
   placeholders:
   - offset: 12
-    length: 53
+    length: 83
     placeholder_text: 'input()  # TODO заполните подсказку для функции input'
     initial_state:
       length: 53
       offset: 12
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 'input("Введите строку Hello World: ")'
-  - offset: 67
+  - offset: 97
     length: 82
     placeholder_text: '# TODO c помощью функции print рачпечатайте значение переменной
       input_str и её тип'
@@ -27,7 +27,7 @@ files:
       offset: 67
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: print(input_str, type(input_str))
   text: |
     input_str = input()  # TODO заполните подсказку для функции input
@@ -37,5 +37,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 01 Apr 2022 09:41:24 UTC
 record: -1
