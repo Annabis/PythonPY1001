@@ -1,6 +1,14 @@
-a = True
-b = False
+x = True
+y = False
+# print("x = ", x, "y = ", y)
 
-# TODO поменяйте значения местами
+# z = x
+# x = y
+# # x : 2
+# # y : 2
+# y = z
 
-print(a, b)
+x , y = y , x
+
+
+print(x, y)

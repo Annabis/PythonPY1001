@@ -9,74 +9,74 @@ files:
   visible: true
   placeholders:
   - offset: 28
-    length: 37
+    length: 3
     placeholder_text: '...  # TODO ввести количество страниц'
     initial_state:
       length: 37
       offset: 28
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 100
-  - offset: 74
-    length: 35
+  - offset: 40
+    length: 2
     placeholder_text: '...  # TODO ввести количество строк'
     initial_state:
       length: 35
       offset: 74
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 50
-  - offset: 118
-    length: 47
+  - offset: 51
+    length: 46
     placeholder_text: '...  # TODO ввести количество символов в строке'
     initial_state:
       length: 47
       offset: 118
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 25
-  - offset: 181
-    length: 45
+  - offset: 113
+    length: 62
     placeholder_text: '...  # TODO общее количество символов в книге'
     initial_state:
       length: 45
       offset: 181
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: pages * lines * chars
-  - offset: 241
-    length: 39
+  - offset: 190
+    length: 64
     placeholder_text: '...  # TODO размер одной книги в байтах'
     initial_state:
       length: 39
       offset: 241
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: total_chars * BYTES_ONE_CHAR
-  - offset: 294
-    length: 35
+  - offset: 268
+    length: 50
     placeholder_text: '...  # TODO размер дискеты в байтах'
     initial_state:
       length: 35
       offset: 294
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '1.44 * 1024 * 1024  # размер в байтах'
-  - offset: 337
-    length: 65
+  - offset: 326
+    length: 86
     placeholder_text: '...)  # TODO найти количество книг, которое поместится на дискете'
     initial_state:
       length: 65
       offset: 337
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: disk_size // total_bytes)
   text: |
     BYTES_ONE_CHAR = 1
@@ -98,5 +98,8 @@ files:
 - name: bytes_table.png
   visible: true
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 04 Apr 2022 19:37:39 UTC
 record: -1

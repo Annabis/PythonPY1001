@@ -7,14 +7,14 @@ files:
   visible: true
   placeholders:
   - offset: 58
-    length: 67
+    length: 77
     placeholder_text: '...  # TODO кортеж может сам развернуть свои значения по переменным'
     initial_state:
       length: 67
       offset: 58
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: tuple_of_vars
   text: |
     tuple_of_vars = (1, "str", [1, 2, 3])
@@ -25,5 +25,10 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: Thu, 07 Apr 2022 09:26:32 UTC
+  actual: |
+    1 str [1, 2, 3]
 record: -1

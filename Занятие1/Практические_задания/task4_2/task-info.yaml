@@ -9,14 +9,14 @@ files:
   visible: true
   placeholders:
   - offset: 8
-    length: 56
+    length: 73
     placeholder_text: '...  # TODO список целых чисел от 50 до 100 включительно'
     initial_state:
       length: 56
       offset: 8
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: list(range(50, 101))
   text: |
     list_ = ...  # TODO список целых чисел от 50 до 100 включительно
@@ -26,5 +26,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 04 Apr 2022 20:02:05 UTC
 record: -1

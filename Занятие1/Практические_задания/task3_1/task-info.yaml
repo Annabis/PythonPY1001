@@ -10,36 +10,36 @@ files:
   visible: true
   placeholders:
   - offset: 17
-    length: 79
+    length: 8
     placeholder_text: '...  # TODO используя оператор целочисленного деления найти
       количество десятков'
     initial_state:
       length: 79
       offset: 17
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: number // 10
-  - offset: 101
-    length: 73
+  - offset: 30
+    length: 77
     placeholder_text: '...  # TODO используя оператор остаток от деления найти количество
       единиц'
     initial_state:
       length: 73
       offset: 101
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: number % 10
-  - offset: 194
-    length: 63
+  - offset: 127
+    length: 65
     placeholder_text: '...)  # TODO вычисления можно производить прямо в функции print'
     initial_state:
       length: 63
       offset: 194
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: d + e)
   text: |
     number = 25
@@ -53,5 +53,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 04 Apr 2022 19:17:43 UTC
 record: -1
